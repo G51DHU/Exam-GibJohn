@@ -1,0 +1,44 @@
+.user,
+.user > .top-half,
+.user > .top-half > .title{
+    display: flex;
+}
+
+.user{
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.user > h1{
+    font-size: 250%;
+}
+
+.top-half{
+    height: 70%;
+    flex-direction: row;
+}
+
+.top-half > .overall-progress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+}
+
+.overall-progress > .title > h2{
+    display: inline-block;
+    font-size: 190%;
+    font-family: "Roboto Mono", monospace;
+}
+.overall-progress > .title{
+    display: inline-block;
+    width: 100%;
+}
+
+.overall-progress > canvas{
+    position: relative !important;
+    bottom: 40px !important;
+    height: 500px !important; 
+    width: 500px !important; 
+}

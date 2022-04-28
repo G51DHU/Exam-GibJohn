@@ -1,0 +1,30 @@
+.footer, .footer > section{
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    justify-content: center;
+    width: 100%;
+    min-height: 7%;
+    height: 7%;
+    background-color: #A1F4FF;
+    gap: 21%;
+}
+
+.footer > img, 
+.footer > section{
+    height: 100%;
+}
+
+.footer > section{
+    gap: 22%
+}
+
+.footer > .legal-info > p{
+    white-space: nowrap;
+}
+
+
+
+

@@ -1,0 +1,41 @@
+.quiz-card{
+    background-color: #FF9898;
+    width: 18%;
+    height: 100px;
+    border-radius: 15px;
+    padding: 0.5%;
+    box-sizing: border-box;
+}
+
+.quiz-card > a{
+    display: flex;
+    padding: 5%;
+    text-decoration: none;
+    color: black;
+}
+.quiz-card > a > div > h3,
+.quiz-card > a > div > p,
+.quiz-card > a > p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.quiz-card > a > div > h3 {
+    font-size: 120%;
+}
+
+.quiz-card > a > div > p {
+    font-size: 80%;
+}
+
+.quiz-card > a > p {
+    margin-top: 26%;
+    margin-left: 10%;
+    font-size: 80%;
+    text-decoration: underline;
+    color: rgb(0, 128, 128);
+}
+
+.quiz-card > a > p:hover {
+    color: honeydew;
+}
